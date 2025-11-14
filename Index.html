@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komik Online Profesional</title><style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: #0e0e0e;
+        color: #fff;
+    }
+
+    header {
+        background: #151515;
+        padding: 25px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .comic-card {
+        background: #1a1a1a;
+        border-radius: 15px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.25s, box-shadow 0.25s;
+    }
+
+    .comic-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    }
+
+    .comic-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .comic-info {
+        padding: 15px;
+    }
+
+    .comic-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .chapter {
+        color: #4ea3ff;
+        font-size: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        margin-top: 30px;
+        color: #777;
+    }
+</style>
+
+</head>
+<body><header>
+    📚 Komik Profesional - Babeh
+</header><div class="container">
+    <div class="comic-card" onclick="window.location='komik1.html'">
+        <img src="https://i.imgur.com/ihZfS3B.jpeg" alt="Komik 1" />
+        <div class="comic-info">
+            <div class="comic-title">Cultivator Makan Skill</div>
+            <div class="chapter">Chapter terbaru: 1</div>
+        </div>
+    </div><div class="comic-card" onclick="window.location='komik2.html'">
+    <img src="https://i.imgur.com/6XbN7gN.jpeg" alt="Komik 2" />
+    <div class="comic-info">
+        <div class="comic-title">Istriku 3 Takdirku Gila</div>
+        <div class="chapter">Chapter terbaru: 1</div>
+    </div>
+</div>
+
+</div><footer>
+    Dibuat khusus untuk Babeh • GitHub Pages
+</footer></body>
+</html>
